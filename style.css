@@ -1,0 +1,95 @@
+body {
+  /*background-color: #f7f7f7;*/
+  background-color: white;
+  text-align: center;
+}
+
+#header {
+  color: yellow;
+  font-size: 35px;
+  font-family: futura;
+  font-style: italic;
+  position: relative;
+  background-image: url("http://abload.de/img/headerw0u2e.png");
+}
+
+#header:hover {
+  -webkit-animation:imageRoll 15s infinite linear;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@-webkit-keyframes imageRoll {
+  0% {
+   background-image: url("http://abload.de/img/headerw0u2e.png");
+  } 
+  20% {
+     background-image: url("http://i.imgur.com/q1T5TgW.jpg");
+  }
+  
+  60% {
+    background-image: url("http://i.imgur.com/WdJM0x3.jpg");
+  }
+  80% {
+    background-image: url("http://i.imgur.com/Rw51MpA.png");
+  }
+  100% {
+   background-image: url("http://i.imgur.com/2I8GrE1.jpg");
+  }
+}
+
+p {
+  font-family: Times;
+  font-size: 20px;
+  text-align: center;
+}
+
+#lyricsDisplay {
+  font-family: Futura;
+  font-size: 25px;
+}
+
+#songTitle {
+  font-family: futura;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+
+#album {
+  font-family: futura;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  background-color: black;
+}
+
+#link {
+  font-family: futura;
+  font-size: 12px;
+  font-style: italic;
+  color: black;
+  background-color: white;
+}
+
+#footer {
+  text-align: center;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:active {
+  color: yellow;
+} 
+
+a:visited {
+  color: #FFB6C1;
+}
+
+a:hover {
+  color: black;
+}
